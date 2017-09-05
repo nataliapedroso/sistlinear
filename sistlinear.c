@@ -14,3 +14,13 @@ main()
 	int l, c;
 	float m1[4][5];
 
+	printf("\n Informe os elementos da matriz: \n");
+	for(l=0; l<4; l++)
+	{
+		for(c=0; c<5; c++)
+		{
+			printf(" [%d][%d]: ", l, c);
+			scanf("%f", &m1[l][c]);
+		}
+	}
+
