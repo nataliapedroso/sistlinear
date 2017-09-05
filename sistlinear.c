@@ -148,4 +148,9 @@ main()
 	x2=(((m2[4])-(m2[3]*x4)-(m2[2]*x3))/(m2[1]));
 	x1=(((m1[4])-(m1[3]*x4)-(m1[2]*x3)-(m1[1]*x2))/(m1[0]));
 
-
+	printf("\n RESULTADOS: ");
+	printf("\n x1=%.2f ", x1);
+	printf("\n x2=%.2f ", x2);
+	printf("\n x3=%.2f ", x3);
+	printf("\n x4=%.2f \n\n", x4);
+}
