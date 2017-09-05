@@ -73,3 +73,25 @@ main()
 			m2[i]=ma[i];
 		}
 	}
+
+	imprime(m1,m2,m3,m4);
+
+	if(m3[0]!=0)
+	{
+		K=m3[0]/m1[0];
+		for(i=0; i<5; i++)
+			m3[i]=m3[i]-K*m1[i];
+	}
+
+	imprime(m1,m2,m3,m4);
+
+	if(m4[0]!=0)
+	{
+		K=(m4[0]/m1[0]);
+		for(i=0; i<5; i++)
+			m4[i]=m4[i]-K*m1[i];
+	}
+
+	imprime(m1,m2,m3,m4);
+
+	
