@@ -121,5 +121,24 @@ main()
 	}
 
 	imprime(m1,m2,m3,m4);
-	
+
+	if(m3[2]!=0)
+	{
+		K=(m4[2]/m3[2]);
+		for(i=0; i<5; i++)
+			m4[i]=m4[i]-K*m3[i];
+	}
+	else
+	{
+		for(i=0; i<5; i++)
+			maux[i]=m3[i];
+		for(i=0; i<5; i++)
+		{
+			m3[i]=m4[i];
+			m4[i]=maux[i];
+		}
+	}
+
+	imprime(m1,m2,m3,m4);
+
 	
