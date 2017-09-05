@@ -74,7 +74,9 @@ main()
 		}
 	}
 
+	printf("\n");
 	imprime(m1,m2,m3,m4);
+	printf("\n");
 
 	if(m3[0]!=0)
 	{
@@ -83,7 +85,9 @@ main()
 			m3[i]=m3[i]-K*m1[i];
 	}
 
+	printf("\n");
 	imprime(m1,m2,m3,m4);
+	printf("\n");
 
 	if(m4[0]!=0)
 	{
@@ -92,7 +96,9 @@ main()
 			m4[i]=m4[i]-K*m1[i];
 	}
 
+	printf("\n");
 	imprime(m1,m2,m3,m4);
+	printf("\n");
 
 	if(m2[1]!=0)
 	{
@@ -111,7 +117,9 @@ main()
 		}
 	}
 
+	printf("\n");
 	imprime(m1,m2,m3,m4);
+	printf("\n");
 
 	if(m4[1]!=0)
 	{
@@ -120,7 +128,9 @@ main()
 			m4[i]=m4[i]-K*m2[i];
 	}
 
+	printf("\n");
 	imprime(m1,m2,m3,m4);
+	printf("\n");
 
 	if(m3[2]!=0)
 	{
@@ -139,7 +149,9 @@ main()
 		}
 	}
 
+	printf("\n");
 	imprime(m1,m2,m3,m4);
+	printf("\n");
 
 	printf("\n\n Fazendo a substituição reversa: \n");
 
