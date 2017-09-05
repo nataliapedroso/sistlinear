@@ -9,3 +9,8 @@ void imprime(float mat[][])
 		printf("\n");
 	}
 }
+main()
+{
+	int l, c;
+	float m1[4][5];
+
