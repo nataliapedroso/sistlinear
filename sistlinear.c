@@ -1,5 +1,5 @@
 #include<stdio.h>
-void imprime(float mat[][])
+void imprime(float mat[4][5])
 {
 	int l, c;
 	for(l=0; l<4; l++)
@@ -23,4 +23,6 @@ main()
 			scanf("%f", &m1[l][c]);
 		}
 	}
+
+	imprime(m1[4][5]);
 
