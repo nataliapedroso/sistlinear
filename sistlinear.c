@@ -52,3 +52,7 @@ main()
 		scanf("%f", &m4[i]);
 	}
 
+	printf("\n\n Imprimindo a matriz informada: \n");
+	imprime(m1,m2,m3,m4);
+
+
