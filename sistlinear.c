@@ -55,4 +55,21 @@ main()
 	printf("\n\n Imprimindo a matriz informada: \n");
 	imprime(m1,m2,m3,m4);
 
+	printf("\n\n Escalonando a matriz: \n");
 
+	if(m1[0]!=0)
+	{
+		K=(m2[0]/m1[0]);
+		for(i=0; i<5; i++)
+			m2[i]=m2[i]-K*m1[i];
+	}
+	else
+	{
+		for(i=0; i<5; i++)
+			ma[i]=m1[i];
+		for(i=0; i<5; i++)
+		{
+			m1[i]=m2[i];
+			m2[i]=ma[i];
+		}
+	}
